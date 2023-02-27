@@ -1,0 +1,404 @@
+body {
+    margin: auto;
+    background: url(./images/photo.jpg) no-repeat center center fixed;
+    background-size: auto;
+}
+
+
+.bar {
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+    z-index: 99;
+    background-color: #181a1b;
+    /* background-color: transparent; */
+}
+
+.nav-bar:hover {
+    background-color: #000;
+}
+
+.nav {
+    font-family: sans-serif;
+    letter-spacing: 10px;
+    font-size: 24px;
+    background-color: #000;
+    padding: 10px 24px;
+    box-sizing: content-box;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.bar a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #676676;
+    padding: 10px;
+}
+
+.main {
+    box-sizing: inherit;
+    font-size: 15px;
+}
+
+.mer {
+    margin: 0 80px;
+}
+
+.about {
+    margin-top: 100%;
+    background-color: #181a1b;
+    color: #777;
+    padding: 20px 50px 30% 50px;
+}
+
+.hobby {
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.para {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    padding-bottom: 20px;
+    box-sizing: inherit;
+    line-height: 1.8;
+}
+
+.me {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.camera {
+    padding-top: 6%;
+    padding-right: 30px;
+    opacity: 0.60;
+    width: 400px;
+    height: auto;
+    vertical-align: middle;
+    float: left;
+    margin-right: 15px;
+    border-radius: 4px;
+}
+
+.camera:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.img-para {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: inherit;
+    line-height: 1.8;
+}
+
+.port {
+    background: url(./images/poverty.jpg) fixed no-repeat center;
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.folio {
+    display: block;
+    margin: 0px;
+    color: #b5b5b5;
+    box-sizing: inherit;
+    text-align: center;
+    padding: 15% 0;
+    line-height: 1.8;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 5px;
+}
+
+.work {  /* article of My work */
+    background-color: #181a1b;
+    height: 1100px;
+    color: #e8e6e3;
+}
+
+.side {
+    margin: 0 80px;
+}
+
+.man {
+    width: 49.9%;
+    box-sizing: inherit;
+    float: right;
+    display: flex;
+    padding-top: 10%;
+    padding-left: 24px;
+    border-radius: 8px 8px 8px 8px;
+    overflow: hidden;
+}
+
+.fir {
+    box-sizing: inherit;
+    display: block;
+    padding: 120px 20px 40px 20px;
+    letter-spacing: 5px;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sec {
+    box-sizing: inherit;
+    display: block;
+    padding-bottom: 40px;
+    letter-spacing: 5px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.one {
+    box-sizing: inherit;
+    font-size: 18px;
+    padding-left: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+.two {
+    box-sizing: inherit;
+    font-size: 18px;
+    color: #b5b5b5;
+    padding-left: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+.con {
+    background: url(./images/bird.jpg) fixed no-repeat center;
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.tact {
+    display: block;
+    margin: 0px;
+    color: #404040;
+    box-sizing: inherit;
+    text-align: center;
+    padding: 15% 0;
+    line-height: 1.8;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 5px;
+}
+
+.live {
+    box-sizing: inherit;
+    height: 950px;
+    background-color: #181a1b;
+    color: #fff;
+}
+
+.action {
+    box-sizing: inherit;
+    padding: 64px 16px;
+    margin: 0 120px;
+}
+
+.we {
+    margin-top: 10px 0;
+    box-sizing: inherit;
+    display: block;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: rgb(157, 148, 136);
+    line-height: 1.8;
+}
+
+.feed {
+    text-align: center;
+    box-sizing: inherit;
+    margin: 15px 0;
+    color: rgb(157, 148, 136);
+    line-height: 1.8;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.back {
+    line-height: 1.8;
+    box-sizing: inherit;
+    font-size: 18px;
+    color: rgb(157, 148, 136);
+}
+
+.place {
+    box-sizing: inherit;
+    float: left;
+    padding: 10% 24px 0;
+    border-radius: 8px 8px 8px 8px;
+    overflow: hidden;
+}
+
+.on {
+    padding-top: 12%;
+    box-sizing: inherit;
+}
+
+.single {
+    display: inline;
+    white-space: nowrap;
+}
+
+.fa-fw:hover {
+    cursor: pointer;
+    opacity: 0.60;
+}
+
+.foo {
+    padding: 64px 0;
+    height: 150px;
+    background-color: #000;
+    margin: 0;
+    box-sizing: inherit;
+    width:100%;
+    line-height: 1.8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.whole {
+    text-align: center;
+}
+
+.whole:hover {
+    opacity: 0.70;
+}
+
+.ar {
+    display: inline-block;
+    box-sizing: inherit;
+    color: rgb(232, 230, 227);
+    background-color: rgb(32, 35, 36);
+    text-decoration: none;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.top {
+    display: inline-block;
+}
+
+.ter {
+    margin: 0%;
+    text-align: center;
+    margin: 16px 0;
+}
+
+.book:hover, 
+.ram:hover, 
+.chat:hover, 
+.set:hover, 
+.eter:hover, 
+.din:hover {
+    opacity: 0.60;
+    cursor: pointer;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    color: rgb(232, 230, 227);
+    font-size: 24px;
+}
+
+.row {
+    margin-right: 16px;
+    font-size: 16px;
+    font-style: bold;
+}
+
+.cc {
+    color: #404040;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.lin {
+    color: #404040;
+}
+
+.lin:hover {
+    color: #b5b5b5;
+}
+
+@media (max-width: 768px) {
+    .nav{
+        white-space: nowrap;
+    }
+
+    .single {
+        white-space: nowrap;
+    }
+
+    .on {
+        text-align: center;
+    }
+}
+
+@media (max-width: 425px) {   
+    .nav {
+        text-align: center;
+        margin-left: 130px;
+    }
+
+    .about {
+        height: 100%;
+        width: 100%;
+    }
+
+    .main {
+        width: 133%;
+    }
+
+    .port {
+        width: 117.5%;
+    }
+
+    .work {
+        width: fit-content;
+    }
+    
+    .con {
+        width: 123%;
+    }
+
+    .action {
+        margin-left: 60px;
+    }
+
+    .live {
+        width: 123%;
+    }
+
+    .foo {
+        width: 160%;
+    }
+}
